@@ -1,6 +1,8 @@
 # Decision-Space Expansion
 
 > **Expand the option space before you decide.**
+>
+> 🌐 **English** | [日本語 (Japanese)](README.ja.md)
 
 A decision methodology distilled from the `decision-workbench` project: before making an important decision, use a **heterogeneous multi-model committee** to widen the option space, structure the divergence, then fold real constraints back in — and let a **human make the final call**.
 
@@ -62,7 +64,8 @@ This repository ships the methodology in the **Agent Skills** format (a single M
 
 ## Files
 
-- `README.md` — this human-readable summary
+- `README.md` — English summary
+- `README.ja.md` — 日本語サマリー (Japanese summary)
 - `SKILL.md` — full skill definition (frontmatter + body), consumable by Claude Code, Cursor, Codex, Gemini CLI, Hermes, and any Markdown-reading agent
 
 Related: the reference implementation lives in the `decision-workbench` repository (FastAPI + React, mock zero-key, 31 tests, hidden-gold eval: single-model 26% → naive multi-agent 78% → decision-workbench 100% / 12).
